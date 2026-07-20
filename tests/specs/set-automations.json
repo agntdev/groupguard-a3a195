@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/set_automations",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure which automated actions are enabled"
+            }
+          }
+        ],
+        "send": {
+          "text": "/set_automations"
+        }
+      }
+    ]
+  }
+]
