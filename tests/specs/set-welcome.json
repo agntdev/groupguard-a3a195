@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/set_welcome",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Configure welcome message and rules text"
+            }
+          }
+        ],
+        "send": {
+          "text": "/set_welcome"
+        }
+      }
+    ]
+  }
+]
