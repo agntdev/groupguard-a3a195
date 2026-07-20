@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/kick",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Kick member with reason"
+            }
+          }
+        ],
+        "send": {
+          "text": "/kick"
+        }
+      }
+    ]
+  }
+]
